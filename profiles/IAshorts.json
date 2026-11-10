@@ -1,0 +1,51 @@
+{
+  "name": "IAshorts",
+  "description": "Perfil optimizado para YouTube Shorts, Instagram Reels y TikTok (Vertical 9:16)",
+  "aspect_ratio": "9:16",
+  "resolution": [1080, 1920],
+  "fps": 24,
+  "margins": {
+    "side_px": 100,
+    "top_px": 310,
+    "bottom_px": 310
+  },
+  "container": {
+    "width": 880,
+    "height": 1300,
+    "radius": 34,
+    "border_width": 4,
+    "drop_shadow_offset": [14, 24],
+    "drop_shadow_alpha": 160
+  },
+  "timeline": {
+    "hook_duration_sec": 7.0,
+    "lead_in_sec": 1.0,
+    "outro_duration_sec": 5.4,
+    "background_blur": {
+      "type": "dual_kawase_bokeh",
+      "downscale_factor": 4,
+      "vignette_color": [10, 14, 26],
+      "vignette_alpha": 140
+    }
+  },
+  "motion": {
+    "travel_zoom_start": 0.96,
+    "travel_zoom_end": 1.03,
+    "drift_amplitude_x": 16,
+    "drift_amplitude_y": 12,
+    "border_beam": true,
+    "border_beam_length": 420,
+    "border_beam_speed": 820,
+    "shimmer": true
+  },
+  "typography": {
+    "font_title_size": 68,
+    "font_number_size": 130,
+    "font_subtitle_size": 46,
+    "font_code_size": 36,
+    "font_body_size": 38,
+    "font_badge_size": 30,
+    "font_sans": "/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf",
+    "font_mono": "/usr/share/fonts/truetype/liberation/LiberationMono-Bold.ttf"
+  }
+}

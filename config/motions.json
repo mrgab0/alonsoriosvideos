@@ -1,0 +1,40 @@
+{
+  "input": "sample/input.mp4",
+  "output": "output/resultado.mp4",
+  "fps": 24,
+  "effects": [
+    {
+      "type": "lower_third",
+      "start": 0.5,
+      "end": 4.0,
+      "text": "Acento importante",
+      "position": ["center", "bottom"],
+      "offset_y": 140,
+      "fontsize": 36,
+      "color": "#FFFFFF",
+      "bg_color": "#000000",
+      "bg_opacity": 0.75
+    },
+    {
+      "type": "highlight",
+      "start": 3.0,
+      "end": 6.0,
+      "shape": "circle",
+      "position": [360, 640],
+      "radius": 140,
+      "color": "#FFD700",
+      "opacity": 0.45,
+      "animation": "pulse"
+    },
+    {
+      "type": "arrow",
+      "start": 5.0,
+      "end": 8.0,
+      "from": [100, 900],
+      "to": [620, 900],
+      "color": "#FF0000",
+      "width": 10,
+      "animation": "draw"
+    }
+  ]
+}
